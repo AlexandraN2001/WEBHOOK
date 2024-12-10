@@ -41,11 +41,15 @@ Visit your Docker Hub page:
 ### 📜 API Documentation with Swagger
 Endpoint: /webhook
 Method: POST
+
 Request Body:
+
 {
   "message": "Hello from JS, made by Alexandra"
 }
+
 Response:
+
 {
   "status": 200,
   "message": "Webhook processed successfully - Hello from JS, made by Alexandra"
